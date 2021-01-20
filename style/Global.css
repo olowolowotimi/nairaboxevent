@@ -1,0 +1,10 @@
+@import './normalize.css';
+
+html,
+body{
+  background-color: black;
+}
+
+* {
+  font-family: 'Amaranth', sans-serif;
+}

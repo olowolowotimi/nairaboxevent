@@ -1,4 +1,5 @@
 import React from "react";
+import Cardinput from "../../components/Cardinput";
 import topStyle from "./styles/Header.module.css";
 
 const Header = () => {
@@ -21,9 +22,12 @@ const Header = () => {
       <button>Create Event</button>
       </div>
     </div>
+   
     <div className={topStyle.img}>
     <img src="/static/img/stormzyimg.jpg" alt="stormzy img" />
+     <Cardinput />
     </div>
+    
     </div>
   );
 };

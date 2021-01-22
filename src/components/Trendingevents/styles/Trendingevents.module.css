@@ -1,0 +1,57 @@
+.trend{
+    margin: 50px 60px;
+}
+
+.text{
+    display:flex;
+}
+.text h1{
+    color:white;
+}
+.text p{
+    color: rgb(62, 141, 62);
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.cards{
+    display: flex;  
+}
+.cards .container{
+    margin: 15px 15px;
+}
+
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(12, 12, 12, 0.925);
+    border-radius: 10px;
+    
+}
+.container img{
+    width:100%
+}
+.container h3{
+    padding: 0 20px;
+    color: rgb(73, 148, 73)
+}
+.container h3:hover{
+    color: white;
+}
+.container p{
+  padding : 0 20px;
+  color: white;
+}
+.container button{
+margin: 0 20px;
+background-color: none;
+border-radius: 10px;
+width: 100px;
+height: 30px;
+background-color: black;
+border: 1px solid rgb(68, 121, 68);
+color:white;
+}
+.container button:hover{
+    color: rgb(69, 117, 69);
+    background-color: lemonchiffon;
+}

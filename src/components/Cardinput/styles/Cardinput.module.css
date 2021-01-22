@@ -1,0 +1,28 @@
+.details{
+    width: 800px;
+    height: 120px;
+   margin: 0 auto;
+   margin-top: -30px;
+    padding: 1% 3%;  
+
+    
+}
+.details h1{
+    text-align: center;
+}
+.search{
+    display: flex;
+}
+.search input{
+    width: 700px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 0 15px;
+}
+.search button{
+    background-color: rgb(109, 226, 109);
+    width: 70px;
+    border-radius: 5px;
+    
+}

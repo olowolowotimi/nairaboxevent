@@ -1,0 +1,15 @@
+.brands{
+    margin: 40px 150px;
+}
+
+.brands h2{
+    color:white;
+    margin-left: 200px;
+}
+.images{
+    display: flex;
+    width: 150px;
+}
+.images img{
+    margin: 10px 50px;
+}

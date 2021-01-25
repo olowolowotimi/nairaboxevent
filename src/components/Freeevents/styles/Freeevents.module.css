@@ -4,3 +4,62 @@
 .free h1{
     color: white;
 }
+.free button{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid green;
+    margin-left: 600px;
+    background-color: rgb(87, 185, 87);
+    color: white;
+}
+.free button:hover{
+    background-color: black;
+}
+.categories{
+    margin: 40px 0px;
+}
+.firstcards{
+    display: flex;
+}
+.firstcards .uppercards{
+    margin: 5px 15px;
+}
+.uppercards{
+    width: 180px;
+    height: 150px;
+    border-radius:5px;
+    background-color: black;
+    border: 1px solid white;
+}
+.uppercards h3{
+    color:white;
+    padding: 50px 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.uppercards h3:hover{
+    color: green;
+}
+.secondcards{
+    display: flex;
+}
+.secondcards .lowercards{
+    margin: 0px 15px;
+}
+.lowercards{
+    width: 180px;
+    height: 150px;
+    border-radius:5px;
+    background-color: black;
+    border: 1px solid white;
+}
+.lowercards h3{
+    color:white;
+    padding: 50px 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.lowercards h3:hover{
+    color: green;
+}

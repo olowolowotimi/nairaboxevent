@@ -37,3 +37,21 @@
 .content img{
     z-index: -1;
 }
+
+@media only screen and (max-width:768px){
+    .content{
+        width:100%;
+    }
+    .head{
+        padding: 10px 30px;
+    }
+    .list ul{
+        display:none;
+    }
+    .list button{
+        display:none;
+    }
+    .img img{
+        width:100%;
+    }
+}

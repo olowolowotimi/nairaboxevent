@@ -1,5 +1,5 @@
 .events{
-    margin: 50px 60px;
+    margin: 50px 40px;
 }
 .events h1{
     color: white;
@@ -45,4 +45,20 @@ color:white;
 .container button:hover{
     color: rgb(69, 117, 69);
     background-color: lemonchiffon;
+}
+
+@media only screen and (max-width:768px){
+    .events{
+        margin: 120px 30px;
+    }
+    .cards{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height:100%;
+               
+    }
+    .cards .container{
+        margin:150px 0px;
+    }
 }

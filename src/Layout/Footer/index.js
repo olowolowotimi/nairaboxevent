@@ -35,7 +35,7 @@ const Footer = () => {
                     
                 </div>
             </div>
-            <hr />
+            <hr className={footStyle.line} />
             <div className={footStyle.copyright}>
                 <p>2018 All Rights Reserved, Nairabox</p>
                 <p>Refund & Cancellation Policy, Terms & Condition</p>

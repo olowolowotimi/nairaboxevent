@@ -16,6 +16,7 @@
 }
 .about p:hover{
     color: green;
+    transform: translateX(-20px);
 }
 .images{
     display:flex;
@@ -23,6 +24,10 @@
 }
 .content .about{
     margin: 15px 60px;
+}
+.line{
+    margin: 0 30px;
+    border: 1px solid grey;
 }
 .copyright{
     display:flex;

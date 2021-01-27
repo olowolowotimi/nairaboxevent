@@ -6,7 +6,7 @@ body{
 }
 
 * {
-  font-family: 'Amaranth', sans-serif;
+  font-family: "Avenir-Roman" !important;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(189, 171, 171, 0.2);

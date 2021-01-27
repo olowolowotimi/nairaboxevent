@@ -1,64 +1,9 @@
 .events{
-    margin: 50px 40px;
+    margin: 80px 40px;
 }
 .events h1{
     color: white;
 }
-.cards{
-    display: flex;  
-}
-.cards .container{
-    margin: 15px 15px;
-}
 
-.container{
-    width: 600px;
-    height: 400px;
-    background-color: rgba(12, 12, 12, 0.925);
-    border-radius: 10px;
-    
-}
-.container img{
-    width:100%
-}
-.container h3{
-    padding: 0 20px;
-    color: rgb(73, 148, 73)
-}
-.container h3:hover{
-    color: white;
-}
-.container p{
-  padding : 0 20px;
-  color: white;
-}
-.container button{
-margin: 0 20px;
-background-color: none;
-border-radius: 10px;
-width: 100px;
-height: 30px;
-background-color: black;
-border: 1px solid rgb(68, 121, 68);
-color:white;
-}
-.container button:hover{
-    color: rgb(69, 117, 69);
-    background-color: lemonchiffon;
-}
+   
 
-@media only screen and (max-width:768px){
-    .events{
-        margin: 120px 30px;
-    }
-    .cards{
-        display:flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        height:100%;
-               
-    }
-    .cards .container{
-        margin:150px 0px;
-    }
-}

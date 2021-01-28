@@ -4,6 +4,12 @@
 .events h1{
     color: white;
 }
+@media only screen and(max-width:768px){
+    .events{
+padding: 20% 0;
+    }
+
+}
 
    
 

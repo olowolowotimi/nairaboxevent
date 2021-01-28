@@ -63,3 +63,15 @@
 .lowercards h3:hover{
     color: green;
 }
+@media only screen and (max-width:768px){
+
+   
+    .free button{
+        margin-left: 10px;
+
+    }
+ .firstcards, .secondcards{
+     flex-wrap:wrap;
+     padding: 0;
+ }
+}

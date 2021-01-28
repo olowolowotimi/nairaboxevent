@@ -37,7 +37,7 @@ const Freeevents = () => {
                 </div>
             </div>
             <div className={freeStyle.secondcards}>
-            <div className={`card ${freeStyle.lowercards} `}>
+                <div className={`card ${freeStyle.lowercards} `}>
                     <h3>Party</h3>
 
                 </div>

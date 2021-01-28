@@ -81,7 +81,7 @@ const Slide = () => {
           <p>Starting from 1,500</p>
           <button>Buy Ticket</button>
         </div>
-        {/* </div> */}
+        
       </Slider>
 
     

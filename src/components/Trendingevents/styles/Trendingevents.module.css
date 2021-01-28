@@ -55,3 +55,16 @@
   color: rgb(69, 117, 69);
   background-color: lemonchiffon;
 }
+@media only screen and (max-width:768px){
+  .cards{
+    flex-wrap:wrap;
+  }
+  .text h1,
+   .text p{
+     white-space: nowrap;
+
+  }
+  .trend{
+    margin: 5px 10px;
+  }
+}

@@ -44,6 +44,7 @@
     }
     .head{
         padding: 10px 30px;
+        width:100%;
     }
     .list ul{
         display:none;
@@ -51,7 +52,14 @@
     .list button{
         display:none;
     }
+    
+    .img{
+        width:100%;
+        margin:0;
+        padding: 0;
+    }
     .img img{
         width:100%;
+        
     }
 }

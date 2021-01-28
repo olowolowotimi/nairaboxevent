@@ -3,7 +3,7 @@ import cardStyle from "./styles/Cardinput.module.css";
 
 const Cardinput = () => {
   return (
-    <div className={`card ${cardStyle.details}`}>
+    <div className={cardStyle.details}>
       <h1>Find an event near you</h1>
       <div className={cardStyle.search}>
         <input

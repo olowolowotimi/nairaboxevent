@@ -14,7 +14,6 @@ body{
   border-radius: 5px;
   border: 1px solid rgb(156, 146, 146) (180, 158, 158);
   background: white;
-  width: auto !important;
 }
 .slick-slider .slick-list .slick-track .slick-slide > div{
   margin: 10px 10px;

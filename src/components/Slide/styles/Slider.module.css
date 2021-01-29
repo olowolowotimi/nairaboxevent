@@ -24,9 +24,9 @@
 .container button {
   margin: 0 20px;
   background-color: none;
-  border-radius: 10px;
-  width: 100px;
-  height: 30px;
+  border-radius: 7px;
+  width: 130px;
+  height: 40px;
   background-color: black;
   border: 1px solid rgb(68, 121, 68);
   color: white;

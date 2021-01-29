@@ -5,8 +5,7 @@ const Trendingevents = () => {
   return (
     <div className={trendStyle.trend}>
       <div className={trendStyle.text}>
-        <h1>Trending Events</h1>
-        <p>( View All Events)</p>
+        <h1>Trending Events <span>(View All Events)</span></h1>
       </div>
       <div className={trendStyle.cards}>
         <div className={`card ${trendStyle.container}`}>

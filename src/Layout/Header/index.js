@@ -10,7 +10,6 @@ const Header = () => {
           <img src="/static/img/nairabox_white.png" alt="logo" />
         </a>
         <div className={topStyle.list}>
-
           <ul>
             <li>Help</li>
             <li>Blog</li>
@@ -25,10 +24,9 @@ const Header = () => {
 
       <div className={topStyle.img}>
         <img src="/static/img/stormzyimg.jpg" alt="stormzy img" />
-        
+
         <Cardinput className={topStyle.card} />
       </div>
-
     </div>
   );
 };

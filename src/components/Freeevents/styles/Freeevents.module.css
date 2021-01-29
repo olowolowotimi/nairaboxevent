@@ -1,84 +1,114 @@
-.free{
-    margin: 50px 60px;
+.free {
+  margin: 50px 60px;
 }
-.free h1{
-    color: white;
+.free h1 {
+  color: white;
 }
-.free button{
-    width: 130px;
-    height: 40px;
-    border-radius: 5px;
-    border: 1px solid green;
-    margin-left: 600px;
-    background-color: rgb(87, 185, 87);
-    color: white;
+.free button {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid green;
+  /* margin-left: 600px; */
+  background-color: rgb(87, 185, 87);
+  color: white;
 }
-.free button:hover{
-    background-color: black;
+.eventBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.categories{
-    margin: 40px 0px;
+.free button:hover {
+  background-color: black;
 }
-.allcards{
-    display:flex;
-    flex-wrap:wrap;
+.categories {
+  margin: 40px 0px;
 }
-.allcards div{
-    margin:0 20px;
+.allcards {
+  display: flex;
+  flex-wrap: wrap;
 }
-.firstcards{
-    display: flex;
+.allcards div {
+  margin: 0 20px;
 }
-.firstcards .uppercards{
-    margin: 5px 15px;
+/* .firstcards {
+  display: flex;
+} */
+.firstcards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
 }
-.uppercards{
-    width: 180px;
-    height: 150px;
-    border-radius:5px;
-    background-color: black;
-    border: 1px solid white;
+@media (max-width: 1200px) {
+  .firstcards {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
-.uppercards h3{
-    color:white;
-    padding: 50px 50px;
-    cursor: pointer;
-    font-size: 20px;
+@media (min-width: 870px) and (max-width: 1199px) {
+  .firstcards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-.uppercards h3:hover{
-    color: green;
+@media (min-width: 471px) and (max-width: 869px) {
+  .firstcards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-.secondcards{
-    display: flex;
+@media (max-width: 470px) {
+  .firstcards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-.secondcards .lowercards{
-    margin: 0px 15px;
+/* .firstcards .uppercards {
+  margin: 5px 15px;
+} */
+.uppercards {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  background-color: black;
+  border: 1px solid white;
 }
-.lowercards{
-    width: 180px;
-    height: 150px;
-    border-radius:5px;
-    background-color: black;
-    border: 1px solid white;
+.uppercards h3 {
+  color: white;
+  padding: 50px 50px;
+  cursor: pointer;
+  font-size: 20px;
 }
-.lowercards h3{
-    color:white;
-    padding: 50px 50px;
-    cursor: pointer;
-    font-size: 20px;
+.uppercards h3:hover {
+  color: green;
 }
-.lowercards h3:hover{
-    color: green;
+.secondcards {
+  display: flex;
 }
-@media only screen and (max-width:768px){
-
-   
-    .free button{
-        margin-left: 10px;
-
-    }
- .firstcards, .secondcards{
-     flex-wrap:wrap;
-     padding: 0;
- }
+.secondcards .lowercards {
+  margin: 0px 15px;
+}
+.lowercards {
+  width: 180px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: black;
+  border: 1px solid white;
+}
+.lowercards h3 {
+  color: white;
+  padding: 50px 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.lowercards h3:hover {
+  color: green;
+}
+@media only screen and (max-width: 768px) {
+  .free button {
+    margin-left: 10px;
+  }
+  .firstcards,
+  .secondcards {
+    flex-wrap: wrap;
+    padding: 0;
+  }
 }

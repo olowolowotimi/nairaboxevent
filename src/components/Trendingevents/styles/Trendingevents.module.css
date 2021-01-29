@@ -7,11 +7,14 @@
 }
 .text h1 {
   color: white;
+  white-space: break-spaces;
+  display: flex;
+  align-items: center;
 }
-.text p {
+.text h1 span {
   color: rgb(62, 141, 62);
-  margin-left: 15px;
-  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 12px;
 }
 .cards {
   display: flex;

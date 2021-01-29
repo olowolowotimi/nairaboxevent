@@ -19,6 +19,13 @@
 .categories{
     margin: 40px 0px;
 }
+.allcards{
+    display:flex;
+    flex-wrap:wrap;
+}
+.allcards div{
+    margin:0 20px;
+}
 .firstcards{
     display: flex;
 }

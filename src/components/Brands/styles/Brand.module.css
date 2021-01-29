@@ -1,31 +1,16 @@
 .brands{
-    margin: 40px 150px;
+    margin: 40px 100px;
 }
 
 .brands h2{
     color:white;
     margin-left: 200px;
 }
-.images{
-    display: flex;
-    width: 150px;
-}
-.images img{
-    margin: 10px 50px;
-}
+
 
 @media only screen and (max-width:768px){
     .brands{
         margin: 0;
         padding:1%;
-    }
-    .brands h2{
-        padding: 0 1%;
-        margin:0;
-
-    }
-    .images{
-        flex-wrap:wrap;
-    
     }
 }

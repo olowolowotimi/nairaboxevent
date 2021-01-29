@@ -12,7 +12,6 @@ const Info = () => {
     return(
         <div>
         <Featuredevents/>
-        
         <Trendingevents />
         <Freeevents />
         <Brands />
